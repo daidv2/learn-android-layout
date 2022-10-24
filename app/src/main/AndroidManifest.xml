@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="31">
-        <!--android:name=".MainActivity"-->
+        <!--android:name=".ScrollingActivity"-->
         <activity
-            android:name=".ScrollingActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

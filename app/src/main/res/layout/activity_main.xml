@@ -19,14 +19,12 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="#000"
-            app:expandedTitleMarginEnd="994dp"
-            app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/ic_launcher"
