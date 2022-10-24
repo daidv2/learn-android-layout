@@ -11,14 +11,13 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class ScrollingActivity extends AppCompatActivity {
-
-
     private Menu menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
+
         final Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
