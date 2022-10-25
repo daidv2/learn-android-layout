@@ -1,4 +1,4 @@
-package com.example.learn_android_layout;
+package com.example.learn_android_layout.activities;
 
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
@@ -11,6 +11,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.learn_android_layout.R;
+
 public class ScrollingActivity extends AppCompatActivity {
     private Menu menu;
 
@@ -21,6 +23,7 @@ public class ScrollingActivity extends AppCompatActivity {
 
         final Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
+         mToolbar.setTitle("Shop");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

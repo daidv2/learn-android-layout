@@ -1,4 +1,4 @@
-package com.example.learn_android_layout;
+package com.example.learn_android_layout.activities;
 
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.learn_android_layout.R;
 
 public class MainActivity extends AppCompatActivity {
     CollapsingToolbarLayout collapsingToolbarLayout;
