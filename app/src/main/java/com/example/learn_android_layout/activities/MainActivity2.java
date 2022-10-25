@@ -10,12 +10,13 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import com.example.learn_android_layout.BottomNavigationBehavior;
-import com.example.learn_android_layout.R;
 import com.example.learn_android_layout.fragments.CartFragment;
 import com.example.learn_android_layout.fragments.GiftsFragment;
 import com.example.learn_android_layout.fragments.ProfileFragment;
 import com.example.learn_android_layout.fragments.StoreFragment;
+import com.example.learn_android_layout.helpers.BottomNavigationBehavior;
+
+import com.example.learn_android_layout.R;
 
 /**
  * Bottom Navigation Android
@@ -38,8 +39,9 @@ public class MainActivity2 extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         // attaching bottom sheet behaviour - hide / show on scroll
-        CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) navigation.getLayoutParams();
-        layoutParams.setBehavior(new BottomNavigationBehavior());
+        // or xml file:   app:layout_behavior=".helpers.BottomNavigationBehavior"
+        // CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) navigation.getLayoutParams();
+        // layoutParams.setBehavior(new BottomNavigationBehavior());
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener

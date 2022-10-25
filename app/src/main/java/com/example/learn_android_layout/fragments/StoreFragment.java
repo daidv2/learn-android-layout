@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.learn_android_layout.models.Movie;
-import com.example.learn_android_layout.MyApplication;
+import com.example.learn_android_layout.apps.MyApplication;
 
 import com.example.learn_android_layout.R;
 

@@ -1,4 +1,4 @@
-package com.example.learn_android_layout;
+package com.example.learn_android_layout.apps;
 
 import android.app.Application;
 import android.text.TextUtils;
