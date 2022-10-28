@@ -3,7 +3,6 @@ package com.example.learn_android_layout.activities;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
@@ -14,7 +13,6 @@ import com.example.learn_android_layout.fragments.CartFragment;
 import com.example.learn_android_layout.fragments.GiftsFragment;
 import com.example.learn_android_layout.fragments.ProfileFragment;
 import com.example.learn_android_layout.fragments.StoreFragment;
-import com.example.learn_android_layout.helpers.BottomNavigationBehavior;
 
 import com.example.learn_android_layout.R;
 
