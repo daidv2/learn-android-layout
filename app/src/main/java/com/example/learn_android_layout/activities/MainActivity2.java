@@ -17,7 +17,7 @@ import com.example.learn_android_layout.fragments.StoreFragment;
 import com.example.learn_android_layout.R;
 
 /**
- * Bottom Navigation Android
+ * Bottom Navigation Android + CardView
  * https://viblo.asia/p/lam-viec-voi-bottom-navigation-trong-android-gGJ59j6pKX2
  */
 public class MainActivity2 extends AppCompatActivity {

@@ -33,7 +33,6 @@ public class MainActivity3 extends AppCompatActivity {
                     // if multi app
                     // true: select app -> open dialog; false: open dialog
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                    intent.putExtra
                     startActivity(intent);
                 }
             }

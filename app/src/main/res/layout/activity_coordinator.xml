@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fitsSystemWindows="true"
+    tools:context=".activities.CoordinatorActivity">
+
+    <TextView
+        android:id="@+id/frID"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:text="BLOCK1"
+        android:gravity="center"
+        android:background="#e65100" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="160dp"
+        android:background="#1db182"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_anchorGravity="bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:id="@+id/mylistview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:id="@+id/mylistview_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTest"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="25dp"
+        android:background="@android:color/holo_green_dark"
+        android:padding="10dp"
+        android:text="This is a TextView in CoordinatorLayout"
+        app:layout_anchor="@+id/frID"
+        app:layout_anchorGravity="right|bottom"
+        app:layout_behavior=".FirstBehavior" />
+
+</android.support.design.widget.CoordinatorLayout>

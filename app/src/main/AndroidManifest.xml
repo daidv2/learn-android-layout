@@ -19,10 +19,11 @@
         <activity android:name=".activities.MainActivity" />
         <activity android:name=".activities.MainActivity2" />
         <activity android:name=".activities.ScrollingActivity" />
+        <activity android:name=".activities.MainActivity3" />
 
         <!-- android:theme="@style/AppTheme.NoActionBar" -->
         <activity
-            android:name=".activities.MainActivity3"
+            android:name=".activities.CoordinatorActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

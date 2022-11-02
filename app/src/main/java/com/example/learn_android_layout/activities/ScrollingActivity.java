@@ -13,6 +13,10 @@ import android.view.View;
 
 import com.example.learn_android_layout.R;
 
+/**
+ * Android CollapsingToolbarLayout Example
+ * https://www.digitalocean.com/community/tutorials/android-collapsingtoolbarlayout-example
+ */
 public class ScrollingActivity extends AppCompatActivity {
     private Menu menu;
 

@@ -11,6 +11,10 @@ import android.widget.ImageView;
 
 import com.example.learn_android_layout.R;
 
+/**
+ * Android Collapsing ToolbarLayout
+ * https://viblo.asia/p/android-collapsing-toolbarlayout-qm6RWqlXGeJE
+ */
 public class MainActivity extends AppCompatActivity {
     CollapsingToolbarLayout collapsingToolbarLayout;
     ImageView image;
