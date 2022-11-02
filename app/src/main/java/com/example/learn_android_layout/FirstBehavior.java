@@ -26,7 +26,10 @@ public class FirstBehavior extends CoordinatorLayout.Behavior<TextView> {
         // Hàm này nhận sự kiện Touch (down) ban đầu khi nhấn trong CoordinatorLayout
         // Behavior ghi đè lên phương thức onInterceptTouchEvent() của CoordinatorLayout
         child.setText(ev.getAction() + "|" + (int) ev.getX() + "|" + (int) ev.getY());
-        return true;
+
+        //Nếu thiết lập trả về true thì onToucheEvent sẽ nhận các sự kiện
+        //Tiếp theo và các View con khác không nhận được Touch, ko scroll dc
+        return false;
     }
 
     @Override
